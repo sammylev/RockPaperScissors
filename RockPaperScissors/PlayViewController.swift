@@ -15,7 +15,7 @@ class PlayViewController: UIViewController {
     }
     
     @IBAction func playPaper(_ sender: UIButton) {
-        performSegue(withIdentifier: "play", sender: sender)
+        performSegue(withIdentifier: "play", sender: sender) 
     }
     
     @IBAction func playRock(_ sender: UIButton) {
@@ -27,7 +27,7 @@ class PlayViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let view = segue.destination as! ResultsViewController
-        view.user = userSelect(sender as! UIButton)
+        view.user = userSelect(sender as! UIButton)    
     }
     
     func userSelect(_ sender: UIButton) -> Choice {

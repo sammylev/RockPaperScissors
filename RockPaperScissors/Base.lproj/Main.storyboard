@@ -27,7 +27,7 @@
                                 <rect key="frame" x="169.5" y="415.5" width="75" height="65"/>
                                 <state key="normal" image="paper"/>
                                 <connections>
-                                    <action selector="playPaper:" destination="BYZ-38-t0r" eventType="touchUpInside" id="92k-Dc-cFe"/>
+                                    <action selector="playPaper:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nly-nV-8rI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="68z-nb-L5L" userLabel="Rock Button">
